@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins/Poppins-Bold.eot");
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+    url("fonts/Poppins/Poppins-Bold.eot?#iefix") format("eot"),
+    url("fonts/Poppins/Poppins-Bold.woff2") format("woff2"),
+    url("fonts/Poppins/Poppins-Bold.woff") format("woff"),
+    url("fonts/Poppins/Poppins-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins/Poppins-Regular.eot");
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("fonts/Poppins/Poppins-Regular.eot?#iefix") format("eot"),
+    url("fonts/Poppins/Poppins-Regular.woff2") format("woff2"),
+    url("fonts/Poppins/Poppins-Regular.woff") format("woff"),
+    url("fonts/Poppins/Poppins-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.satisfied {
+  font-family: "Poppins";
+  font-style: normal;
+  position: relative;
+  width: 1500px;
+  height: 1540px;
+  background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%),
+    radial-gradient(100% 100% at 46.86% 0%, #ff8000 0%, #e34141 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.satisfied:before {
+  content: url(pic/head.svg);
+  position: absolute;
+  top: -41px;
+}
+.satisfied::after {
+  content: url(pic/foot.svg);
+  position: absolute;
+  bottom: -32px;
+}
+.inf_client {
+  padding-top: 424px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.white {
+  position: relative;
+  top: -41px;
+  left: 0;
+  width: 100vw;
+  height: 423px;
+}
+.reviews {
+  background: url(pic/circles.svg);
+  color: #333333;
+  width: 1067px;
+  height: 389px;
+}
+.review:before {
+  content: "";
+  position: absolute;
+  top: 38px;
+  left: -31px;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-right: 31px solid rgba(192, 192, 192, 0.7);
+  border-bottom: 17px solid transparent;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  margin: 212px 0 0 557px;
+  position: relative;
+  width: 410px;
+  height: 117px;
+  border-radius: 15px;
+  background: rgba(192, 192, 192, 0.7);
+}
+.inf_client h1 {
+  position: relative;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 327px;
+  height: 84px;
+}
+.inf_client h1::after {
+  content: "";
+  position: absolute;
+  top: 95px;
+  left: 138px;
+  width: 50px;
+  height: 6px;
+  background: #fd749b;
+  border-radius: 15px;
+}
+.inf_client p {
+  margin-top: 73px;
+  width: 542px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+}
+.review h1 {
+  width: 152px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 65px;
+}
+.review img {
+  width: 76px;
+  height: 13px;
+  margin: 25px 0 7px 0;
+}
